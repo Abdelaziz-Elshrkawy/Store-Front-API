@@ -39,9 +39,9 @@ describe('Testing user route 2=>', (): void =>{
       .set('Authorization', 'bearer ' + token);
     expect(index.status).toBe(200);
   });
-  it('expect create to return http code 401', async (done): Promise<void> => {
+  it('expect create to return http code 400', async (done): Promise<void> => {
     done();
-    const create = await test.get('/user');
-    expect(create.status).toBe(401);
+    const create = await test.post('/user');
+    expect(create.status).toBe(400);
   });
 });
