@@ -8,7 +8,7 @@ all handlers tested with postman and confirmed that it's working correctly and t
 ## MODELS
 the models designed to cover all the database queries required by the project and tested to confirm the shape and schema which were designed for
 ---------------------------------------------------------------------------------------------
-## database 
+## Database 
 the database deigned to match desired shape i make an image for the design `database-erm.jpg` within the project, i made migration for all database tables required and designed to get the desired data shape
 
 # create user as following 
