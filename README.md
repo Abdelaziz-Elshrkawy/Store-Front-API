@@ -23,9 +23,9 @@ the database deigned to match desired shape i make an image for the design `data
 ### granting permissions 
 
 
-#### grant all privileges on database store_front to abdel; 
+grant all privileges on database store_front to abdel; 
 
-#### grant all privileges on database test to abdel;
+grant all privileges on database test to abdel;
 ----------------------------------------------------------------------------------------------
 ## instruction for the project 
 ==> scripts for the projects:
