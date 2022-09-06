@@ -1,4 +1,4 @@
-## STORE-FRONT-API
+# STORE-FRONT-API
 
 ## THIS PROJECT IS PART OF UDACITY ADVANCED WED DEVELOPMENT NANO DEGREE
 
@@ -11,16 +11,16 @@ the models designed to cover all the database queries required by the project an
 ## Database 
 the database deigned to match desired shape i make an image for the design `database-erm.jpg` within the project, i made migration for all database tables required and designed to get the desired data shape
 
-# create user as following 
+### create user as following 
 `sql` create user abdel with password '123';
 
-# create database as following
+### create database as following
 `sql` create database store_front;
 `sql` create database test;
 
-# the test database is named `test` and created automatically with scripts make sure to read what i wrote in it to avoid getting errors 
+### the test database is named `test` and created automatically with scripts make sure to read what i wrote in it to avoid getting errors 
 
-# granting permissions 
+### granting permissions 
 
 
 #### grant all privileges on database store_front to abdel; 
