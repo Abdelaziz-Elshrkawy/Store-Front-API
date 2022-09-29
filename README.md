@@ -3,13 +3,15 @@
 ## THIS PROJECT IS PART OF UDACITY ADVANCED WED DEVELOPMENT NANO DEGREE
 
 ## HANDLERS
-all handlers tested with postman and confirmed that it's working correctly and tested with jasmine to get specific http code the routes mapped on the `REQUIREMENTS.md` file
+
+all handlers tested with postman and confirmed that it's working correctly and tested with jasmine to get specific http code the routes mapped on the [REQUIREMENTS.md](./REQUIREMENTS.md) file
 
 ## MODELS
 the models designed to cover all the database queries required by the project and tested to confirm the shape and schema which were designed for
+
 ---------------------------------------------------------------------------------------------
 ## Database 
-the database deigned to match desired shape i make an image for the design `database-erm.jpg` within the project, i made migration for all database tables required and designed to get the desired data shape
+the database deigned to match desired shape i make an image for the design [Database-erm Image](./database-erm/database-erm.jpg) within the project, i made migration for all database tables required and designed to get the desired data shape
 
 ### create user as following 
 `sql` create user abdel with password '123';
@@ -43,4 +45,4 @@ grant all privileges on database test to abdel;
 
 `watch` ==> to watch typescript files change
 
-`tsc` ==> to compile typescript files to build folder (typescript out
+`tsc` ==> to compile typescript files to build folder
