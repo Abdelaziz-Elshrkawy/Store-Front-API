@@ -1,16 +1,16 @@
 {
     "dev":{
         "driver": "pg",
-        "host": "127.0.0.1",
-        "database": "store_front",
-        "user": "abdel",
-        "password": "123"
+        "host": process.env.host,
+        "database": process.env.database,
+        "user": process.env.user,
+        "password": process.env.password
     },
     "test":{
         "driver": "pg",
-        "host": "127.0.0.1",
-        "database": "test",
-        "user": "abdel",
-        "password": "123"
+        "host": process.env.host,
+        "database": process.env.test_database,
+        "user": process.env.user,
+        "password": process.env.password
     }
 }
