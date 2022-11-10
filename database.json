@@ -1,16 +1,16 @@
 {
     "dev":{
         "driver": "pg",
-        "host": "${process.env.host}",
-        "database": "${process.env.database}",
-        "user": "${process.env.user}",
-        "password": "${process.env.password}"
+        "host": {"ENV":"host"},
+        "database": {"ENV":"database"},
+        "user": {"ENV": "user"},
+        "password": {"ENV": "password"}
     },
     "test":{
         "driver": "pg",
-        "host": "${process.env.host}",
-        "database": "${process.env.test_database}",
-        "user": "${process.env.user}",
-        "password": "${process.env.password}"
+        "host": {"ENV":"host"},
+        "database": {"ENV":"test_database"},
+        "user": {"ENV": "user"},
+        "password": {"ENV": "password"}
     }
 }
