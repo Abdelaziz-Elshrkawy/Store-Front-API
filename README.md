@@ -1,4 +1,4 @@
-# STORE-FRONT-API
+``# STORE-FRONT-API
 
 ## THIS PROJECT IS PART OF UDACITY ADVANCED WED DEVELOPMENT NANO DEGREE
 
@@ -11,7 +11,7 @@ the models designed to cover all the database queries required by the project an
 
 ---------------------------------------------------------------------------------------------
 ## Database 
-the database deigned to match desired shape i make an image for the design [Database-erm Image](./database-erm/database-erm.jpg) within the project, i made migration for all database tables required and designed to get the desired data shape
+the database deigned to match desired shape i make an image for the design [Database-erd Image](./database-erm/database-erm.jpg) within the project, i made migration for all database tables required and designed to get the desired data shape
 
 ### create user as following 
 `sql` create user abdel with password '123';
